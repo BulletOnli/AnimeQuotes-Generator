@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anime Quotes</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/effd3867de.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="leftSide">
+        <div class="title">
+            <p class="title-anime">Anime</p>
+            <p class="title-quotes">Quotes</p>
+            <p class="title-generator">Generator</p>
+            <div class="icons">
+                <a href="https://ayo.so/bulletonli" target="_blank"><i class="fa-solid fa-gear"></i></a>
+                <a href="https://github.com/BulletOnli" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.instagram.com/gem.muel/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="rightSide">
+        <div class="container">
+            <div class="input-group">
+                <input class="input" type="text" placeholder="Please enter anime title!" autocomplete="off" autofocus>
+                <label id="title" class="user-label">Anime Title :</label>
+            </div>
+            <div class="nameContainer">
+                <p class="charText">Character :</p>
+                <p class="charName"></p>
+            </div>
+            <div class="quoteContainer">
+                <p class="quoteText">Quote :</p>
+                <p class="quote"></p>
+            </div>
+            <button id="generate">Generate</button>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
